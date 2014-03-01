@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------*/
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+
+
+input{
+        display: block;
+margin-right: auto;
+margin-left:auto;    
+position: relative;
+width:300px;
+margin-bottom: 5px;
+}
+
+#buttons {
+    display: block;
+margin-right: auto;
+margin-left:auto;    
+position: relative;
+text-align: center;
+
+}
+#add-button, #new-button{ 
+    display:inline-block;
+    position: relative;
+    height: 30px;
+    width: 100px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    white-space: normal;
+
+}
+
+p {
+
+    display:block;
+    position: relative;
+    text-align: center;
+    width:300px;
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    margin-top: 0px;
+    font-weight: 400;
+    white-space: normal;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 25px;
+    font-weight:300;
+
+}
+
+ul {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+li {
+    padding-top: 16px;
+    clear: both;
+    text-align: left;
+    text-indent: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 35px;
+    background-color: #D1DBBD;
+    margin-top: 8px;
+    border: 1px solid #193441;
+}
+
+.checked {
+    padding-top: 16px;
+    clear: both;
+    text-align: left;
+    text-indent: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 35px;
+    background-color: #D1DBBD;
+    margin-top: 8px;
+    border: 1px solid #193441;
+    text-decoration: line-through;
+}
+
+li:hover {
+    border: 1px solid orange;
+}
+
+.remove-button{
+    margin-right: 5px;
+    left:-20px;
+}
+
+
