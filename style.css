@@ -99,7 +99,11 @@ text-align: center;
     margin-top: 10px;
     font-weight: 400;
     white-space: normal;
+}
 
+#add-button:hover, #new-button:hover{
+    box-shadow: 0px 0px 1px 0px #888888;
+    
 }
 
 p {
@@ -136,9 +140,11 @@ li {
     font-size: 16px;
     width: 300px;
     height: 35px;
-    background-color: #D1DBBD;
+    background-color: #DFF2E9;
     margin-top: 8px;
-    border: 1px solid #193441;
+    border: 1px solid #D7DDDA;
+    border-radius: 4px;
+
 }
 
 .checked {
@@ -150,14 +156,16 @@ li {
     font-size: 16px;
     width: 300px;
     height: 35px;
-    background-color: #D1DBBD;
+    background-color:#DFF2E9 ;
     margin-top: 8px;
-    border: 1px solid #193441;
+    border: 1px #D7DDDA;
     text-decoration: line-through;
+    border-radius: 4px;
 }
 
 li:hover {
-    border: 1px solid orange;
+    background-color:#CAEADA
+;
 }
 
 .remove-button{
