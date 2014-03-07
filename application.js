@@ -12,7 +12,7 @@ $(document).ready(function () {
             alert("You didn't enter anything."); 
             }  
             else {
-                $("#the-list").append("<li id='new-item'>" + currentItem + "<button class='remove-button'>X</button></li>");
+                $("#the-list").append("<li class='new-item'>" + currentItem + "<button class='remove-button'>X</button></li>");
             }   
         $("#add-box").val('');
         $("#add-box").focus();
@@ -21,10 +21,10 @@ $(document).ready(function () {
     //Allows the enter key to be used for adding an item
 
     $('#add-box').keypress(function (event) {
+    	var currentItem = $("#add-box").val();
         if (event.keyCode == 13) {
-            $("#add-button").click();
+        	return addItem();
            
-            event.preventDefault();
         } 
     });
 
@@ -34,17 +34,17 @@ $(document).ready(function () {
 
     //Make the 'x' button appear and disappear when hovering over a list item.
 
-    $("#the-list").on("mouseenter", "#new-item", function () {
+    $("#the-list").on("mouseenter", ".new-item", function () {
     $(this).find(".remove-button").show();
   });
 
-    $("#the-list").on("mouseleave", "#new-item", function () {
+    $("#the-list").on("mouseleave", ".new-item", function () {
     $(this).find(".remove-button").hide();
   });
 
     //Toggle between checked off and not checked off
 
-    $("#the-list").on("click", "#new-item", function () {
+    $("#the-list").on("click", ".new-item", function () {
     $(this).toggleClass("checked");
   });
 
