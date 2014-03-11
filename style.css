@@ -72,6 +72,9 @@ margin-left:auto;
 position: relative;
 width:300px;
 margin-bottom: 5px;
+height:30px;
+font-size: 15px;
+font-family: 'Oswald', sans-serif;
 }
 
 #buttons {
